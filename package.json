@@ -1,0 +1,14 @@
+{
+  "name": "desktop_application_codeplayer",
+  "version": "1.0.0",
+  "description": "Developing a Desktop application using electron framework, compatible for both windows and linux,and the application has 3 sections to write code of html, css and JavaScript and one output section to show the output of the written code. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kishore",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
