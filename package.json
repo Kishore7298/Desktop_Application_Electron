@@ -4,11 +4,14 @@
   "description": "Developing a Desktop application using electron framework, compatible for both windows and linux,and the application has 3 sections to write code of html, css and JavaScript and one output section to show the output of the written code. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Kishore",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "chalk": "^2.4.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
   }
 }
