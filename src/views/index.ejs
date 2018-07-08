@@ -1,37 +1,41 @@
 <html>
 
 <head>
-    <link href="/css/bootstrap.min.css" rel="stylesheet"> 
-    
-
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:500|Nunito|Roboto+Mono');
+    </style> 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm" style="background-color: rgb(204, 215, 226);">
-        <b class="navbar-brand" style="font-family: 'Merriweather', serif;">CodeCompile</b>
+    <nav class="navbar navbar-expand-sm" style="background-color: rgb(237, 240, 243);">
+        <b class="navbar-brand" style="font-family: 'Josefin Sans', sans-serif; font-size: 26px">CodeCompile</b>
         <div class="btn-group p-0" style="margin: 0 auto" id="buttons">
-            <a href="#" class="btn btn-primary buttons" style="font-family: 'Nunito', sans-serif;" id="htmlButton">HTML</a>
-            <a href="#" class="btn btn-primary buttons" style="font-family: 'Nunito', sans-serif;" id="cssButton">CSS</a>
-            <a href="#" class="btn btn-primary buttons" style="font-family: 'Nunito', sans-serif;" id="JavaScriptButton">JavaScript</a>
-            <a href="#" class="btn btn-primary buttons" style="font-family: 'Nunito', sans-serif;" id="outputButton">Output</a>
+            <a href="#" class="btn btn-primary buttons" style="font-family: 'Montserrat', sans-serif;" id="htmlButton">HTML</a>
+            <a href="#" class="btn btn-primary buttons" style="font-family: 'Montserrat', sans-serif;" id="cssButton">CSS</a>
+            <a href="#" class="btn btn-primary buttons" style="font-family: 'Montserrat', sans-serif;" id="JavaScriptButton">JavaScript</a>
+            <a href="#" class="btn btn-primary buttons" style="font-family: 'Montserrat', sans-serif;" id="outputButton">Output</a>
         </div>
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;" id="htmlSection">
-                    <textarea class="form-control" rows="25" placeholder="//HTML Code Here" id="htmlArea"></textarea>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;"
+                id="htmlSection">
+                <textarea class="form-control" rows="25" placeholder="//HTML Code Here" id="htmlArea"></textarea>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;" id="cssSection">
-                    <textarea class="form-control" rows="25" placeholder="//CSS Code Here" id="cssArea"></textarea>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;"
+                id="cssSection">
+                <textarea class="form-control" rows="25" placeholder="//CSS Code Here" id="cssArea"></textarea>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;" id="JavaScriptSection">
-                    <textarea class="form-control" rows="25" placeholder="//JavaScript Code Here" id="JavaScriptArea"></textarea>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;"
+                id="JavaScriptSection">
+                <textarea class="form-control" rows="25" placeholder="//JavaScript Code Here" id="JavaScriptArea"></textarea>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="height: 600px;font-family: 'Roboto Mono', monospace; display: inline;" id="outputSection"> 
-                    <textarea class="form-control" rows="25" placeholder="//Output will be shown Here" readonly style="background-color: floralwhite" id="outputArea"></textarea>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 form-group p-0" style="font-family: 'Roboto Mono', monospace; display: inline;"
+                id="outputSection">
+                <textarea class="form-control" rows="25" placeholder="//Output will be shown Here" readonly style="background-color: floralwhite"
+                    id="outputArea"></textarea>
             </div>
         </div>
 
@@ -39,7 +43,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/ButtonsResponse.js"></script>
+    <script type="module" src="/js/ButtonsResponse.js"></script>
 </body>
 
 </html>
